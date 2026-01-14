@@ -1,0 +1,33 @@
+{
+    "family name": "Smith",
+    "moved date": "4/12/25",
+    "family members": 5,
+    "was visited by the bishopric": false,
+    "individual information": [
+        {
+            "name": "Taylor",
+            "gender": "male",
+            "birthdate": "1/1/2003"
+        },
+        {
+            "name": "Jenna",
+            "gender": "female",
+            "birthdate": "6/21/1999"
+        },
+        {
+            "name": "John",
+            "gender": "male",
+            "birthdate": "1/1/2003"
+        },
+        {
+            "name": "Luis",
+            "gender": "male",
+            "birthdate": "1/1/2003"
+        },
+        {
+            "name": "Layla",
+            "gender": "female",
+            "birthdate": "1/1/2003"
+        }
+    ]
+}
