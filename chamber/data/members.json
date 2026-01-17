@@ -1,0 +1,68 @@
+{
+    "companies": [
+        {
+            "name": "Havanna",
+            "address": "Federico Brandsen 3251, Mar del Plata, Buenos Aires, Argentina",
+            "phonenumber": "0800-666-1371",
+            "url": "https://havanna.com.ar/",
+            "logo": "images/havanna.png",
+            "membershiplevel": 3
+        },
+        {
+            "name": "Grupo Mattera",
+            "address": "Ortiz de Zárate 3055, Mar del Plata, Buenos Aires, Argentina",
+            "phonenumber": "+54 223 489 0583 / 489 4645",
+            "url": "http://www.grupomattera.com/",
+            "logo": "images/grupomattera.png",
+            "membershiplevel": 1
+        },
+        {
+            "name": "Laboratorios Pharmamerican",
+            "address": "3rd Street and 6th Street, General Savio Industrial Park",
+            "phonenumber": "+54 223 464 2881",
+            "url": "https://labpharmamerican.com/",
+            "logo": "images/pharmamerican.svg",
+            "membershiplevel": 2
+        },
+        {
+            "name": "Cabrales",
+            "address": "Rivadavia 3171, Mar del Plata, Buenos Aires, Argentina",
+            "phonenumber": "+54 223 491 6363",
+            "url": "https://www.cabrales.com/?lang=en",
+            "logo": "images/logo-cabrales.png",
+            "membershiplevel": 3
+        },
+        {
+            "name": "Lucciano's",
+            "address": "7th Street between 6th and 9th Streets, General Savio Industrial Park",
+            "phonenumber": "+54 223 617 2407",
+            "url": "https://luccianos.net/en/",
+            "logo": "images/luccianos.png",
+            "membershiplevel": 3
+        },
+        {
+            "name": "Panacity",
+            "address": "3rd Street between 6th and 8th Streets, General Savio Industrial Park",
+            "phonenumber": "+54 223 530 3710",
+            "url": "https://www.panacity.com.ar/",
+            "logo": "images/panacity.png",
+            "membershiplevel": 2
+        },
+        {
+            "name": "Química Industrial Kubo",
+            "address": "Santiago del Estero 2554, Mar del plata, Buenos Aires, Argentina",
+            "phonenumber": "+54 (0223) 493-2185",
+            "url": "https://www.quimicakubo.com.ar/",
+            "logo": "images/quimica-kubo.svg",
+            "membershiplevel": 1
+        },
+        {
+            "name": "Electroterma",
+            "address": "General Savio Industrial Park, Mar del Plata",
+            "phonenumber": "+54 9 223 464 999",
+            "url": "https://electroterma.com.ar/",
+            "logo": "images/electroterma.png",
+            "membershiplevel": 1
+        }
+    ]
+}

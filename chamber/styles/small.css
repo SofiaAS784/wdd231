@@ -1,0 +1,147 @@
+:root {
+    --headings-font: "TASA Explorer", sans-serif;
+    --text-font: "TikTok Sans", sans-serif;
+    --main-color: #530053;
+    --text-color: #f5f5f5;
+    --darker-color: #33033e;
+    --lighter-color: #5f3c67;
+    --border: var(--darker-color) solid 2px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 5px 36px auto 44px;
+    padding: 5px 0;
+    align-items: end;
+    border-bottom: solid 1px #ccc;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-column: 2/3;
+}
+
+header span {
+    font-size: 1.4rem;
+    font-family: var(--headings-font);
+    color: var(--main-color);
+    padding-bottom: 3px;
+}
+
+h1 {
+    margin-left: 10px;
+    color: var(--darker-color);
+    font-family: var(--headings-font);
+}
+p {
+    font-family: var(--text-font);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+    padding: 1rem 10px;
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--text-font);
+}
+
+/* Class Selectors */
+
+.hamburger {
+    background: none;
+    margin-bottom: .3rem;
+    border: none;
+    font-size: 1.5em;
+    color: var(--darker-color);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+    grid-column: 1/5;
+    margin: 5px 0 -5px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--main-color);
+}
+
+.navigation a {
+    display: block;
+    border-bottom: solid 1px #9d9c9c;
+    padding: .5rem 10px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--headings-font);
+    font-weight: 500;
+}
+
+.navigation a:hover {
+    background-color: var(--lighter-color);
+    font-weight: 700;
+}
+
+.navigation li.current {
+    color: var(--text-color);
+    background-color: var(--darker-color);
+}
+
+.info {
+    text-align: start;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    margin: 1rem;
+    border-radius: 30px;
+    background-color: var(--text-color);
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media a:hover {
+    background-color: #ddd;
+}
