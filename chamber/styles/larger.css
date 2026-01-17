@@ -50,7 +50,8 @@
     }
 
     .navigation li.current {
-        background-color: #c7c7c7;
+        color: var(--darker-color);
+        background-color: #ddd;
     }
 
     .grid section {
