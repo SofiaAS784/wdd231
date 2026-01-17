@@ -33,7 +33,7 @@
     .navigation ul {
         flex-direction: row;
         justify-content: end;
-        background-color: white;
+        background-color: #ffffff;
     }
 
     .navigation a {
@@ -50,7 +50,11 @@
     }
 
     .navigation li.current {
-        background-color: rgb(199, 199, 199);
+        background-color: #c7c7c7;
+    }
+
+    .grid section {
+        padding: .8rem;
     }
 
     .list section {

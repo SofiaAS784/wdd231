@@ -130,7 +130,7 @@ footer {
 .layout button {
     margin: 1rem .5rem;
     border: var(--border);
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 8px;
 }
 
@@ -139,8 +139,8 @@ footer {
 }
 
 .layout button img {
-    width: 28px;
-    height: 28px;
+    width: 36px;
+    height: 36px;
 }
 
 .grid {
@@ -158,7 +158,7 @@ footer {
     justify-content: center;
     height: 265px;
     box-shadow: 5px 5px 10px 2px #4d4d4d6f;
-    padding: auto 3rem;
+    padding: 3rem;
     background-color: #ddd;
 }
 
@@ -191,6 +191,7 @@ footer {
 .list section {
     display: grid;
     grid-template-columns: 120px 1.5fr 1fr 100px;
+    margin-bottom: .5rem;
     border-bottom: var(--border);
     background-color: var(--text-color);
 }
@@ -207,6 +208,10 @@ footer {
 
 .info {
     text-align: start;
+}
+
+.title {
+    font-weight: 600;
 }
 
 .social-media {
