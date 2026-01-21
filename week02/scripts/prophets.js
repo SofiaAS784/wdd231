@@ -33,3 +33,4 @@ const displayProphets = (prophets) => {
         cards.appendChild(card);
     });
 }
+
