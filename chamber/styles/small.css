@@ -127,18 +127,37 @@ footer {
 
 /* MAIN */
 
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    width: 220px;
+    font-size: 30px;
+    color: #002d2b;
+}
+
 .hero a {
     display: block;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
     width: 180px;
     border-radius: 20px;
     padding: .5rem;
-    background-color: var(--lighter-color);
+    background-color:#004846c1;
     text-decoration: none;
     font-family: var(--headings-font);
     font-weight: 500;
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     color: var(--text-color);
+}
+
+.hero a:hover {
+    background-color: var(--darker-color);
+    font-weight: 600;
 }
 
 .hero img {
@@ -297,6 +316,7 @@ footer {
     display: grid;
     grid-template-columns: 0.7fr 1.5fr;
     background-color: #ddd;
+    border-radius: 10px;
     padding: .3rem;
 }
 
@@ -329,6 +349,7 @@ footer {
 
 .adds a {
     font-family: var(--text-font);
+    color: #000063;
 }
 
 /* FOOTER */

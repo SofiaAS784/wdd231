@@ -58,6 +58,19 @@
 
     /* MAIN */
 
+    .hero h1 {
+        width: 360px;
+        left: 20px;
+        font-size: 48px;
+    }
+
+    .hero a {
+        right: 70px;
+        bottom: 40px;
+        width: 220px;
+        font-size: 36px;
+    }
+
     .grid section {
         padding: .8rem;
     }
