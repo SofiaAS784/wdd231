@@ -131,11 +131,14 @@ footer {
     position: relative;
 }
 
-.hero h1 {
+.hero span {
     position: absolute;
+    margin: 10px;
     width: 220px;
-    font-size: 30px;
+    font-size: 34px;
+    font-family: var(--headings-font);
     color: #002d2b;
+    font-weight: 500;
 }
 
 .hero a {
