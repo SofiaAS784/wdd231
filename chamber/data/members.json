@@ -6,6 +6,7 @@
             "phonenumber": "0800-666-1371",
             "url": "https://havanna.com.ar/",
             "logo": "images/havanna.png",
+            "small-logo": "images/havanna-logo.png",
             "membershiplevel": 3
         },
         {
@@ -22,6 +23,7 @@
             "phonenumber": "+54 223 464 2881",
             "url": "https://labpharmamerican.com/",
             "logo": "images/pharmamerican.svg",
+            "small-logo": "images/pharmamerican-logo.png",
             "membershiplevel": 2
         },
         {
@@ -30,6 +32,7 @@
             "phonenumber": "+54 223 491 6363",
             "url": "https://www.cabrales.com/?lang=en",
             "logo": "images/cabrales.png",
+            "small-logo": "images/cabrales-logo.png",
             "membershiplevel": 3
         },
         {
@@ -38,6 +41,7 @@
             "phonenumber": "+54 223 617 2407",
             "url": "https://luccianos.net/en/",
             "logo": "images/luccianos.png",
+            "small-logo": "images/luccianos-logo.png",
             "membershiplevel": 3
         },
         {
@@ -46,6 +50,7 @@
             "phonenumber": "+54 223 530 3710",
             "url": "https://www.panacity.com.ar/",
             "logo": "images/panacity.png",
+            "small-logo": "images/panacity-logo.png",
             "membershiplevel": 2
         },
         {
