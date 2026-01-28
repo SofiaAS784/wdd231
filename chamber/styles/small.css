@@ -1,3 +1,5 @@
+/* Reduce the quantity of declarations to less than 250 */
+
 :root {
     --headings-font: "TASA Explorer", sans-serif;
     --text-font: "TikTok Sans", sans-serif;
@@ -60,74 +62,74 @@ p {
 
 form {
     margin: 1rem 10px;
+}
 
-    legend {
-        padding: .3rem;
-        font-family: var(--headings-font);
-        font-size: 22px;
-        font-weight: 600;
-        color: #002d2b;
-    }
+form legend {
+    padding: .3rem;
+    font-family: var(--headings-font);
+    font-size: 22px;
+    font-weight: 600;
+    color: #002d2b;
+}
 
-    label {
-        display: block;
-        font-family: var(--headings-font);
-        color: var(--darker-color);
-        font-weight: 500;
-    }
+form label {
+    display: block;
+    font-family: var(--headings-font);
+    color: var(--darker-color);
+    font-weight: 500;
+}
 
-    input[type=text],
-    input[type=tel],
-    input[type=email],
-    select,
-    textarea {
-        display: block;
-        width: 300px;
-        margin: .2rem 0 1rem;
-        border: 1px solid #999;
-        border-radius: 5px;
-        border-left-width: 5px;
-        padding: .3rem;
-        font-family: var(--text-font);
-    }
+form input[type=text],
+form input[type=tel],
+form input[type=email],
+form select,
+form textarea {
+    display: block;
+    width: 300px;
+    margin: .2rem 0 1rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+    border-left-width: 5px;
+    padding: .3rem;
+    font-family: var(--text-font);
+}
 
-    textarea {
-        height: 100px;
-    }
+form textarea {
+    height: 100px;
+}
 
-    input:required {
-        border-left-color: #ac0000;
-    }
+form input:required {
+    border-left-color: #ac0000;
+}
 
-    input:focus {
-        border-left-color: #002d2b;
-        outline: none;
-    }
+form input:focus {
+    border-left-color: #002d2b;
+    outline: none;
+}
 
-    input:required:valid {
-        border-left-color: rgb(0, 146, 32);
-    }
+form input:required:valid {
+    border-left-color: rgb(0, 146, 32);
+}
 
-    input:-webkit-autofill {
-        -webkit-text-fill-color: #002d2b;
-    }
+form input:-webkit-autofill {
+    -webkit-text-fill-color: #002d2b;
+}
 
-    input[type=submit] {
-        width: 300px;
-        margin: .5rem 30px;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        padding: .5rem 2rem;
-        font-family: var(--headings-font);
-        text-align: center;
-        font-size: 18px;
-        font-weight: 500;
-        color: #002d2b;
-    }
+form input[type=submit] {
+    width: 300px;
+    margin: .5rem 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: .5rem 2rem;
+    font-family: var(--headings-font);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #002d2b;
+}
 
-    input[type=submit]:hover {
-        background-color: #ccc;
-    }
+form input[type=submit]:hover {
+    background-color: #ccc;
 }
 
 dialog {
@@ -597,6 +599,7 @@ footer {
         opacity: 0;
         transform: translateY(50px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
