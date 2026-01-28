@@ -9,7 +9,6 @@
         --border: var(--darker-color) solid 2px;
     }
 
-    /* HEADER */
 
     header,
     main,
@@ -19,6 +18,8 @@
         margin: 0 auto;
     }
 
+    /* HEADER */
+    
     header {
         grid-template-columns: 5px 32px auto 1fr;
     }
@@ -57,6 +58,10 @@
     }
 
     /* MAIN */
+
+    h1, .display-join h2, form, .hero, .grid, .list, .display, .adds, .cards {
+        margin: 10px;
+    }
 
     .hero span {
         width: 360px;
@@ -110,7 +115,7 @@
     }
 
     .display-join .cards a {
-        top: 45px;
+        top: 52px;
         right: 40px;
         margin: auto;
     }
