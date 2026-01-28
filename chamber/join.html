@@ -54,7 +54,7 @@
                     <label>Last Name<input type="text" name="last" required title="Your Last Name"
                             autocomplete="family-name"></label>
                     <label>Organization Title<input type="text" name="title" required title="Your Organizational Title"
-                            autocomplete="organization-title" minlength="7" pattern="[a-zA-Z -]"></label> <!-- It is missing a pattern -->
+                            autocomplete="organization-title" minlength="7" pattern="[a-zA-Z\s\-]{7,}"></label> <!-- It is missing a pattern -->
                     <label>Email<input type="email" name="email" required title="Your Personal Email" autocomplete="email"
                             placeholder="example@gmail.com"></label>
                     <label>Phone Number<input type="tel" name="phone" required title="Your Personal Phone Number"
