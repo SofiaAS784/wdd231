@@ -73,6 +73,39 @@ section img {
     margin: 44px auto;
 }
 
+dialog {
+    width: 450px;
+    margin: 1rem auto;
+    padding: .5rem;
+}
+
+dialog h2, dialog h3 {
+    font-family: var(--headings-font);
+}
+
+dialog h2 {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: .4rem;
+}
+
+dialog h3 {
+    padding: .4rem 0;
+}
+
+dialog p {
+    padding: .4rem 0;
+    font-family: var(--text-font);
+}
+
+dialog button {
+    padding: .1rem;
+    position: absolute;
+    right: 15px;
+    top: 16px;
+}
+
 footer {
     background-color: var(--main-color);
     padding: 1rem 10px;

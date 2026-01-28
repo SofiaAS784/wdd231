@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDP Chamber of Commerce - Join Us</title>
+    <meta name="description" content="All the information about the memberships that we provide and how you can be part of us.">
+    <meta name="author" content="Sofia Angela Suarez">
+    <meta property="og:title" content="Mar del Plata Chamber of Commerce - The ideal site for your company">
+    <meta property="og:description"
+        content='The ideal website to find all the information about some of the most important companies in "La Feliz".'>
+    <meta property="og:image"
+        content="https://sofiaas784.github.io/wdd231/chamber/images/Mar-del-Plata-Chamber-of-Commerce.png">
+    <meta property="og:url" content="https://sofiaas784.github.io/wdd231/chamber/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="Icon" href="images/building-icon.ico">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/memberships.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/buildings.svg" alt="Site Logo" width="44" height="44">
+        <span>Mar del Plata Chamber of Commerce</span>
+        <button id="menu" class="hamburger" aria-labelledby="menu"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Join</h1>
+        <div class="display-join">
+            <h2>Membership Application</h2>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label>First Name<input type="text" name="first" required title="Your First Name"
+                            autocomplete="given-name"></label>
+                    <label>Last Name<input type="text" name="last" required title="Your Last Name"
+                            autocomplete="family-name"></label>
+                    <label>Organizational Title<input type="text" name="title" required title="Your Organizational Title"
+                            autocomplete="organization-title"></label>
+                    <label>Email<input type="email" name="email" required title="Your Personal Email" autocomplete="email"
+                            placeholder="example@gmail.com"></label>
+                    <label>Phone Number<input type="tel" name="phone" required title="Your Personal Phone Number"
+                            autocomplete="tel-national"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label>Business Name<input type="text" name="business" required title="The Name of your Organization"
+                            autocomplete="organization"></label>
+                    <label>Membership Level
+                        <select name="membership" required>
+                            <option value="" selected disabled>Choose your membership...</option>
+                            <option value="NP">NP Membership</option>
+                            <option value="Bronze">Bronze Membership</option>
+                            <option value="Silver">Silver Membership</option>
+                            <option value="Gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    <label>Business Description<textarea name="desc" title="description"></textarea></label>
+                </fieldset>
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" value="Join the Chamber">
+            </form>
+            <h2 class="sub">Membership Information</h2>
+            <div class="cards"></div>
+            <dialog id="member-info"></dialog>
+        </div>
+    </main>
+    <footer>
+        <div class="info">
+            <p class="title">Mar del Plata Chamber of Commerce</p>
+            <p>20 de Septiembre 1234</p>
+            <p>Mar del Plata, Buenos Aires, Argentina</p>
+            <p>info@mdpcc.org</p>
+            <p>+54 (223) 777-9001</p>
+        </div>
+        <div class="social-media">
+            <a href="#" target="_blank"><img src="images/facebook.svg" alt="Facebook Icon" width="16" height="16"></a>
+            <a href="#" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon" width="16" height="16"></a>
+            <a href="#" target="_blank"><img src="images/whatsapp.svg" alt="WhatsApp Icon" width="16" height="16"></a>
+        </div>
+        <div class="info">
+            <p>WDD231 Class Project</p>
+            <p>Sofia Angela Suarez</p>
+            <p>© <span id="currentyear"></span> Mar del Plata Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>

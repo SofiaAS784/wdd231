@@ -111,9 +111,35 @@ function createCourse(courses) {
             courseName.style.backgroundColor = '#5f3c67';
         }
         coursesList.append(courseName);
+        courseName.addEventListener('click', () => {
+            displayModal(course);
+        });
     });
     const credits = document.createElement('p');
     let creditsNumber = courses.reduce((accumulator, currentValue) => accumulator + currentValue.credits, 0);
     credits.textContent = `The total credits for course listed above is ${creditsNumber}`;
     coursesList.appendChild(credits);
 };
+
+// MODAL DESIGN (W04)
+
+const modal = document.querySelector('#course-details');
+
+function displayModal(course) {
+    modal.innerHTML = '';
+    modal.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+
+    modal.showModal();
+
+    closeModal.addEventListener("click", () => {
+        modal.close();
+    })
+}
