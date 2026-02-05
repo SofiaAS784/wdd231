@@ -1,0 +1,178 @@
+:root {
+    --headings-font: "TASA Explorer", sans-serif;
+    --text-font: "TikTok Sans", sans-serif;
+    --main-color: #dc6300;
+    --text-color: #f5f5f5;
+    --darker-color: #7e3900;
+    --lighter-color: #ee9c5a;
+    --additional-color: #007f90;
+    --font-color: #04002c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    background-color: var(--main-color);
+}
+
+header h1 {
+    padding: .7rem;
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--headings-font);
+    font-weight: 300;
+}
+
+section {
+    margin: 1.2rem auto;
+    border: 1px solid #808080;
+    border-radius: 6px;
+    padding: .5rem;
+    width: auto;
+    max-width: 500px;
+    background-color: #dddcdc;
+}
+
+label {
+    display: block;
+    width: 200px;
+    margin: -1rem auto 0 auto;
+    border-radius: 6px;
+    padding: .3rem;
+    text-align: center;
+    background-color: var(--additional-color);
+    color: var(--text-color);
+    font-size: 24px;
+    font-family: var(--headings-font);
+    font-weight: 300;
+}
+
+h2 {
+    padding: .5rem;
+    text-align: center;
+    font-family: var(--headings-font);
+    color: var(--font-color);
+}
+
+p {
+    padding: .3rem;
+    font-family: var(--text-font);
+    color: var(--font-color);
+}
+
+table {
+    margin: .5rem auto;
+    width: 480px;
+    border: 1px solid #0000001a;
+    border-collapse: collapse;
+    background-color: #dcd3cb;
+}
+
+th,
+td {
+    padding: 0.5em 1rem;
+}
+
+th {
+    font-family: var(--headings-font);
+}
+
+td {
+    font-family: var(--text-font);
+}
+
+thead th,
+tbody td {
+    text-align: center;
+}
+
+thead {
+    color: #000000;
+    background: #ee9c5a;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #c8a990;
+}
+
+footer {
+    display: block;
+    padding: .8rem;
+    text-align: center;
+    background-color: var(--darker-color);
+}
+
+footer p {
+    color: var(--text-color);
+    font-family: var(--headings-font);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#lastModified {
+    margin: 0.2rem;
+    padding-top: 0.1rem;
+    font-family: var(--headings-font);
+    font-size: 18px;
+}
+
+figcaption {
+    text-align: center;
+    font-family: var(--headings-font);
+}
+
+/* Class Selectors */
+
+.color {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.orange {
+    background-color: var(--main-color);
+}
+
+.dark {
+    background-color: var(--darker-color);
+}
+
+.light {
+    background-color: var(--lighter-color);
+}
+
+.blue {
+    background-color: var(--additional-color);
+}
+
+.white {
+    background-color: var(--text-color);
+}
+
+.darker {
+    background-color: var(--font-color);
+}
+
+.example1 {
+    font-family: var(--headings-font);
+    font-weight: 300;
+}
+
+.example2 {
+    font-family: var(--text-font);
+    font-weight: 600;
+}
+
+.large img {
+    width: 480px;
+    margin-top: 1rem;
+}
+
+.mobile img {
+    width: 350px;
+    margin: 1.5rem 65px 0 65px;
+}
