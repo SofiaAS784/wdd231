@@ -1,0 +1,27 @@
+@media only screen and (min-width: 52rem) {
+    .places {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+    }
+
+    .places section {
+        max-width: 38rem;
+        padding: 0;
+        display: grid;
+        grid-template-areas:
+            "name"
+            "photo"
+            "desc"
+            "address";
+    }
+
+    .places img {
+        margin: .2rem auto;
+        border-radius: 0;
+    }
+
+    .places h2 {
+        padding: .4rem;
+    }
+}

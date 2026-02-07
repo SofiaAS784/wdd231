@@ -55,8 +55,8 @@ function createCard(memberships) {
         const title = document.createElement('h2');
         const action = document.createElement('a');
         title.textContent = membership.title;
-        action.setAttribute = ('href', '#');
-        action.textContent = 'LEARN MORE    ';
+        action.setAttribute('href', '#');
+        action.textContent = 'LEARN MORE';
         if (membership.title == 'Non-Profit Membership') {
             card.style.backgroundImage = 'linear-gradient(to right, #005358, #00a4af)'
         }

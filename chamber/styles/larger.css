@@ -19,7 +19,7 @@
     }
 
     /* HEADER */
-    
+
     header {
         grid-template-columns: 5px 32px auto 1fr;
     }
@@ -59,7 +59,16 @@
 
     /* MAIN */
 
-    h1, .display-join h2, form, .hero, .grid, .list, .display, .adds, .cards {
+    h1,
+    .display-join h2,
+    form,
+    .hero,
+    .grid,
+    .list,
+    .display,
+    .adds,
+    .cards, 
+    .places {
         margin: 10px;
     }
 
@@ -118,6 +127,32 @@
         top: 52px;
         right: 40px;
         margin: auto;
+    }
+
+    .places section {
+        max-width: 38rem;
+        margin: 10px auto;
+        padding: 0;
+        display: grid;
+        grid-template-areas:
+            "photo name"
+            "photo desc"
+            "photo address";
+    }
+
+    .places img {
+        height: 255px;
+        margin: 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .places img:hover {
+        box-shadow: 0 0 5px 3px #456b43;
+    }
+
+    .places h2 {
+        margin-top: .2rem;
     }
 
     /* FOOTER */

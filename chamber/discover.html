@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDP Chamber of Commerce - Discover</title>
-    <meta name="description" content="">
+    <meta name="description" content="Discover the most beautiful places in Mar del Plata when you can learn more about our city.">
     <meta name="author" content="Sofia Angela Suarez">
     <meta property="og:title" content="Mar del Plata Chamber of Commerce - The ideal site for your company">
     <meta property="og:description"
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,14 +25,15 @@
     <link rel="Icon" href="images/building-icon.ico">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/companies.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
+    <script type="module" src="scripts/interest.js"></script>
 </head>
 
 <body>
     <header>
         <img src="images/buildings.svg" alt="Site Logo" width="44" height="44">
         <span>Mar del Plata Chamber of Commerce</span>
-        <button id="menu" class="hamburger" aria-labelledby="menu"></button>
+        <button id="menu" class="hamburger" aria-label="menu"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -42,7 +44,9 @@
         </nav>
     </header>
     <main>
-        <h1>Join</h1>
+        <h1>Discover</h1>
+        <div class="places"></div>
+        <p id="lastVisited"></p>
     </main>
     <footer>
         <div class="info">

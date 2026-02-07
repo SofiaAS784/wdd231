@@ -53,7 +53,7 @@ h3, h4, label, span {
     text-align: center;
 }
 
-p, a, li {
+p, a, li, address {
     font-family: var(--text-font);
 }
 
@@ -490,6 +490,43 @@ footer {
     color: var(--text-color);
 }
 
+/* Discover page */
+
+.places section {
+    width: auto;
+    max-width: 500px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: .5rem;
+    background-color: #ddd;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "photo"
+    "desc"
+    "address";
+}
+
+.places h2 {
+    padding: .3rem;
+    font-weight: 600;
+}
+
+.places img {
+    grid-area: photo;
+    margin: 0 auto;
+}
+
+.places p, .places address {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.places address {
+    grid-area: address;
+}
+
 /* FOOTER */
 
 .info {
@@ -555,6 +592,16 @@ footer {
 #results h3 {
     padding: .5rem;
     font-weight: 500;
+}
+
+#lastVisited {
+    text-align: center;
+    padding: .4rem;
+    font-size: 20px;
+    font-family: var(--headings-font);
+    font-weight: 500;
+    color: var(--text-color);
+    background-color: var(--darker-color);
 }
 
 /* ANIMATIONS */
