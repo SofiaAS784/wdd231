@@ -1,0 +1,55 @@
+{
+    "activities": {
+        "courses": [
+            {
+                "title": "Temple Preparation",
+                "instructor": "Ivan Mendez",
+                "days": "Wednesday",
+                "time": "7PM",
+                "location": "In-Person and Online",
+                "material": ""
+            },
+            {
+                "title": "Missionary Preparation",
+                "instructor": "Juan Perez",
+                "days": "Tuesday",
+                "time": "7PM",
+                "location": "In-Person",
+                "material": ""
+            }
+        ],
+        "workshops": [
+            {
+                "title": "YSA Choir",
+                "instructor": "Paula Rodriguez",
+                "days": "Wednesday",
+                "time": "8:30PM",
+                "location": "In-Person"
+            },
+            {
+                "title": "Guitar Class",
+                "instructor": "Hector Lopez",
+                "days": "Tuesday",
+                "time": "8PM",
+                "location": "In-Person"
+            },
+            {
+                "title": "English Class",
+                "instructor": "Ruben Gomez",
+                "days": "Thursday",
+                "time": "7PM",
+                "location": "Online"
+            }
+        ],
+        "devotionals": [
+            {
+                "title": "YSA Devotional",
+                "speaker": "Elder Bedregal",
+                "day": "February 13th",
+                "time": "8PM",
+                "location": "At the YSA Center",
+                "desc": ""
+            }
+        ]
+    }
+}

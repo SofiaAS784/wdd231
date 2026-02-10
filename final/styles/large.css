@@ -1,0 +1,12 @@
+@media only screen and (min-width: 38rem) {
+    :root {
+        --headings-font: "TASA Explorer", sans-serif;
+        --text-font: "TikTok Sans", sans-serif;
+        --main-color: #dc6300;
+        --text-color: #f5f5f5;
+        --darker-color: #7e3900;
+        --lighter-color: #ee9c5a;
+        --additional-color: #007f90;
+        --font-color: #04002c;
+    }
+}
