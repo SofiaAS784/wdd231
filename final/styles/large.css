@@ -9,4 +9,85 @@
         --additional-color: #007f90;
         --font-color: #04002c;
     }
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 5px 32px auto 1fr;
+    }
+
+    /* Class Selectors */
+    /* HEADER */
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        margin: 0;
+    }
+
+    .navigation ul {
+        flex-direction: row;
+        justify-content: end;
+        background-color: var(--text-color);
+    }
+
+    .navigation a {
+        border: none;
+        padding: .5rem 1rem;
+        font-size: large;
+        color: var(--darker-color);
+    }
+
+    .navigation a:hover {
+        background-color: var(--text-color);
+        border-bottom: 3px solid var(--darker-color);
+        font-weight: 700;
+    }
+
+    .navigation li.current {
+        color: var(--darker-color);
+        background-color: #ddd;
+    }
+
+    /* BODY */
+    /* Home page */
+    
+
+    /* Share Page */
+
+    .share {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+    }
+
+    .share form {
+        grid-column: 1/2;
+    }
+
+    .share .sub {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #set {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 2rem 10px 2rem 10px;
+    }
+
+    #set section {
+        height: 100px;
+    }
+
+    #set a {
+        top: 52px;
+        right: 40px;
+        margin: auto;
+    }
 }

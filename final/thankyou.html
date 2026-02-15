@@ -22,6 +22,7 @@
     <link rel="Icon" href="images/">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/form.js" defer></script>
 </head>
 
 <body>
@@ -31,42 +32,17 @@
         <button id="menu" class="hamburger" aria-labelledby="menu"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="activities.html">Activities</a></li>
-                <li><a href="share.html">Share & Connect</a></li>
+                <li  class="current"><a href="share.html">Share & Connect</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <span>BE PART OF THIS GREAT TEAM</span>
-            <picture>
-                <source media="(min-width: 1000px)" srcset="images/hero-image-large.webp">
-                <source media="(min-width: 500px)" srcset="images/hero-image-medium.webp">
-                <img src="images/hero-image-small.webp" alt="A group of young adults" loading="lazy">
-            </picture>
-            <a href="share.html">Join us!</a>
-        </div>
-        <h1>Home</h1>
-        <div class="calendar">
-        </div>
-        <div>
-            <h2>Upcoming Activities</h2>
-            <ul class="carousel">
-                <li data-accName="Item 1"><img src="images/add-dev-bedregal.webp" alt="Devotional by President Oaks"></li>
-                <li data-accName="Item 2"><img src="images/add-dev-oaks.webp" alt="Devotional by Elder Bedregal"></li>
-                <li data-accName="Item 3"><img src="images/add-pfjas.webp" alt="FSYSA Conference"></li>
-            </ul>
-        </div>
-        <section class="location">
-            <a href="https://maps.app.goo.gl/KC719kcXd2TJWS3t7" target="_blank"><img src="images/mdp-church-small.webp" alt="A local LDS church"></a>
-            <h2>YSA Center Location</h2>
-            <address>3944 San Luis, Mar del Plata, Buenos Aires Province, Argentina</address>
-            <p>Open every Tuesday from 6:30 to 9PM</p>
-            <p>Open every Wednesday from 6:30 to 10:30PM</p>
-        </section>
+        <h1>Form Status</h1>
+        <div id="results"></div>
     </main>
-    <footer>
+        <footer>
         <div class="social-media">
             <a href="#" target="_blank"><img src="images/whatsapp.svg" alt="WhatsApp Icon" width="16" height="16"></a>
             <a href="https://www.instagram.com/centrojas.mdp/?utm_source=ig_web_button_share_sheet" target="_blank"><img

@@ -22,6 +22,7 @@
     <link rel="Icon" href="images/">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/activities.js" defer></script>
 </head>
 
 <body>
@@ -29,19 +30,29 @@
         <img src="images/" alt="Site Logo" width="16" height="16">
         <span>Mar del Plata YSA Center</span>
         <button id="menu" class="hamburger" aria-labelledby="menu"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="activities.html">Activities</a></li>
+                <li><a href="share.html">Share & Connect</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav id="nav-bar" class="navigation">
-        <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="share.html">Share</a></li>
-        </ul>
-    </nav>
     <main>
         <h1>Activities</h1>
+        <h2>Our Courses</h2>
+        <p>Do you want to deepen your knowledge of the gospel? Come to one of our inspired and selected courses</p>
         <div class="cards" id="courses"></div>
+        <h2>The workshops</h2>
+        <p>If you are looking to develop a new skill or just a hobby, look at these options to learn all together. Invite a friend to come!
+        </p>
         <div class="cards" id="workshops"></div>
+        <h2>Devotionals</h2>
+        <p>All of the local, regional and global devotionals upcoming for YSA</p>
         <div class="cards" id="devotionals"></div>
+        <h2>Ward Activities</h2>
+        <p>Finally, but not less important: the upcoming section to post whatever activity you want for all of us to
+            be. Just use the link a invite us!</p>
     </main>
     <footer>
         <div class="social-media">

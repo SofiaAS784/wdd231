@@ -22,6 +22,9 @@
     <link rel="Icon" href="images/">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/questions.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/ideas.js" defer></script>
 </head>
 
 <body>
@@ -29,15 +32,91 @@
         <img src="images/" alt="Site Logo" width="16" height="16">
         <span>Mar del Plata YSA Center</span>
         <button id="menu" class="hamburger" aria-labelledby="menu"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li  class="current"><a href="share.html">Share & Connect</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav id="nav-bar" class="navigation">
-        <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="share.html">Share</a></li>
-        </ul>
-    </nav>
-    <main></main>
+    <main>
+        <h1>Share & Connect</h1>
+        <div class="share">
+            <h2>Share your ideas with us!</h2>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label>First Name<input type="text" name="first" required title="Your First Name"
+                            autocomplete="given-name"></label>
+                    <label>Last Name<input type="text" name="last" required title="Your Last Name"
+                            autocomplete="family-name"></label>
+                    <label>Email<input type="email" name="email" required title="Your Personal Email" autocomplete="email"
+                            placeholder="example@gmail.com"></label>
+                    <label>Phone Number<input type="tel" name="phone" required title="Your Personal Phone Number"
+                            autocomplete="tel"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Share your ideas</legend>
+                    <label>Topic
+                        <select name="topic" required>
+                            <option value="" selected disabled>Choose one of the following...</option>
+                            <option value="">Propose an activity</option>
+                            <option value="">Share a ward activity</option>
+                            <option value="">Make a suggestion</option>
+                            <option value="">Ask a question</option>
+                        </select>
+                    </label>
+                    <label>Detailed Description<textarea name="desc" id="description" required></textarea></label>
+                </fieldset>
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" value="Share your idea!">
+            </form>
+            <h2 class="sub">What type of ideas we are looking for?</h2>
+            <div class="cards" id="set"></div>
+            <dialog id="ideas"></dialog>
+        </div>
+        <h2>Connect with others like you</h2>
+        <section class="cards">
+            <h3>Join our WhatsApp Community</h3>
+        </section>
+        <section class="cards">
+            <h3>Come to one of our activities</h3>
+            <h4>Address:</h4>
+            <p>3944 San Luis, Mar del Plata, Buenos Aires Province, Argentina</p>
+            <h4>How to arrive?</h4>
+            <ul>
+                <li><strong>If you came from the center:</strong> 551, 553</li>
+                <li><strong>If you came from the port:</strong> 551, 533</li>
+                <li><strong>If you came from the center:</strong></li>
+                <li><strong>If you came from the center:</strong></li>
+            </ul>
+        </section>
+        <p></p>
+        <section>
+            <h3>» Common Questions «</h3>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <div class="content">
+                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+            </div>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <div class="content">
+                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+            </div>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <div class="content">
+                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+            </div>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <div class="content">
+                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+            </div>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <div class="content">
+                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="social-media">
             <a href="#" target="_blank"><img src="images/whatsapp.svg" alt="WhatsApp Icon" width="16" height="16"></a>
