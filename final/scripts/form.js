@@ -8,7 +8,7 @@ const registration = new URLSearchParams(window.location.search);
 console.log(registration);
 
 document.querySelector('#results').innerHTML = `
-<h2>Welcome to our Chamber of Commerce!</h2>
+<h2>Thank you for sharing with us!</h2>
 <p>This is the information that you have entered:</p>
 <p><strong>Brief description: </strong>${registration.get('desc')}</p>
 (You will receive an email of confirmation with the details for the payment if apply)</p>
