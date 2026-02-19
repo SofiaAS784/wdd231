@@ -9,6 +9,7 @@ async function getActivitiesData() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
+            console.log(data.activities);
             displayActivities(data.activities);
         } else {
             throw Error(await response.text());
@@ -39,9 +40,11 @@ function displayActivities(activities) {
     button.setAttribute('href', 'share.html');
     button.classList.add('button');
     plus.setAttribute('src', 'images/plus-square.svg');
+    plus.setAttribute('alt', 'A plus symbol');
     plus.setAttribute('loading', 'lazy');
     plus.setAttribute('width', '44px');
     plus.setAttribute('height', '44px');
+    plus.setAttribute('aria-label', 'more');
     coursesDisplay.appendChild(more);
     more.appendChild(title);
     more.appendChild(button);

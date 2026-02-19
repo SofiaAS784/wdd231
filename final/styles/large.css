@@ -45,7 +45,7 @@
         border: none;
         padding: .5rem 1rem;
         font-size: large;
-        color: var(--darker-color);
+        color: #482300;
     }
 
     .navigation a:hover {
@@ -145,8 +145,8 @@
     }
 
     #set a {
-        top: 52px;
-        right: 40px;
+        top: 58px;
+        right: 6px;
         margin: auto;
     }
 }

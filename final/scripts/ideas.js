@@ -4,50 +4,46 @@ const info = document.getElementById('ideas');
 const suggestions = [
     {
         title: 'Social Activity',
-        desc: 's',
-        characteristics: 's',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur possimus similique culpa inventore a minima quidem quibusdam laboriosam, eligendi distinctio ullam porro deserunt tempore quaerat explicabo fuga hic neque?',
+        characteristics: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur possimus similique culpa inventore a minima quidem quibusdam laboriosam, eligendi distinctio ullam porro deserunt tempore quaerat explicabo fuga hic neque?',
         examples: [
-            's',
-            'e',
-            'r',
-            'l',
-            'o'
+            'YSA Dance',
+            'Afternoon of board games',
+            'Talent Show',
+            'Social meeting'
         ]
     },
     {
         title: 'Physical Activity',
-        desc: 's',
-        characteristics: 's',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur possimus similique culpa inventore a minima quidem quibusdam laboriosam, eligendi distinctio ullam porro deserunt tempore quaerat explicabo fuga hic neque?',
+        characteristics: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur possimus similique culpa inventore a minima quidem quibusdam laboriosam, eligendi distinctio ullam porro deserunt tempore quaerat explicabo fuga hic neque?',
         examples: [
             'Volley Tournament',
             'Soccer Activity',
             'Hiking Activity',
-            'Day of Camping',
-            'o'
+            'Day of Camping'
         ]
     },
     {
         title: 'Intellectual Activity',
-        desc: 's',
-        characteristics: 's',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur possimus similique culpa inventore a minima quidem quibusdam laboriosam, eligendi distinctio ullam porro deserunt tempore quaerat explicabo fuga hic neque?',
+        characteristics: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur possimus similique culpa inventore a minima quidem quibusdam laboriosam, eligendi distinctio ullam porro deserunt tempore quaerat explicabo fuga hic neque?',
         examples: [
-            's',
-            'e',
-            'r',
-            'l',
-            'o'
+            'Public Speaking Class',
+            'First Aid Class',
+            'Literature Club',
+            'Indexing Activity'
         ]
     },
     {
         title: 'Spiritual Activity',
-        desc: 's',
-        characteristics: 's',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur possimus similique culpa inventore a minima quidem quibusdam laboriosam, eligendi distinctio ullam porro deserunt tempore quaerat explicabo fuga hic neque?',
+        characteristics: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur possimus similique culpa inventore a minima quidem quibusdam laboriosam, eligendi distinctio ullam porro deserunt tempore quaerat explicabo fuga hic neque?',
         examples: [
-            's',
-            'e',
-            'r',
-            'l',
-            'o'
+            'Marriage Devotional',
+            'YSA Temple Trip',
+            'Religious Debate',
+            'Campfire chat about the BoM'
         ]
     }
     ,

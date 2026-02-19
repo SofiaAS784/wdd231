@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YSA Center MPD — Share & Connect</title>
-    <meta name="description" content="A space to share your ideas and your opinion with us, to keep building this center all together.">
+    <meta name="description"
+        content="A space to share your ideas and your opinion with us, to keep building this center all together.">
     <meta name="author" content="Sofia Angela Suarez">
     <meta property="og:title" content="YSA Center — Mar del Plata">
     <meta property="og:description"
-        content='We are a group of young single adults from 18 to 35 that is inviting people to come and see our social and spiritual environment. You are welcome to come to our activities and learn more with us!'>
-    <meta property="og:image" content="https://sofiaas784.github.io/wdd231/final/images/YSA.png">
+        content='We are a group of young single adults from 18 to 35 that is inviting people to come and see our social and spiritual environment. Come and learn with us!'>
+    <meta property="og:image" content="https://sofiaas784.github.io/wdd231/final/images/ysa.png">
     <meta property="og:url" content="https://sofiaas784.github.io/wdd231/final/index.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
@@ -30,14 +31,14 @@
 
 <body>
     <header>
-        <img src="images/YSA-logo.png" alt="Site Logo" width="16" height="16">
+        <img src="images/ysa-logo.png" alt="Site Logo" width="16" height="16">
         <span>Mar del Plata YSA Center</span>
-        <button id="menu" class="hamburger" aria-labelledby="menu"></button>
+        <button id="menu" class="hamburger" aria-label="menu"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="activities.html">Activities</a></li>
-                <li  class="current"><a href="share.html">Share & Connect</a></li>
+                <li class="current"><a href="share.html">Share & Connect</a></li>
             </ul>
         </nav>
     </header>
@@ -52,21 +53,22 @@
                             autocomplete="given-name"></label>
                     <label>Last Name<input type="text" name="last" required title="Your Last Name"
                             autocomplete="family-name"></label>
-                    <label>Email<input type="email" name="email" required title="Your Personal Email" autocomplete="email"
-                            placeholder="example@gmail.com"></label>
+                    <label>Email<input type="email" name="email" required title="Your Personal Email"
+                            autocomplete="email" placeholder="example@gmail.com"></label>
                     <label>Phone Number<input type="tel" name="phone" required title="Your Personal Phone Number"
                             autocomplete="tel"></label>
                 </fieldset>
                 <fieldset>
                     <legend>Share your ideas</legend>
-                    <label>Title<input type="text" name="title" required title="The Idea Title" minlength="7" pattern="[a-zA-Z\s\-]{7,}"></label>
+                    <label>Title<input type="text" name="title" required title="The Idea Title" minlength="7"
+                            pattern="[a-zA-Z\s\-]{7,}"></label>
                     <label>Topic
-                        <select name="topic" required>
+                        <select name="theme" required>
                             <option value="" selected disabled>Choose one of the following...</option>
-                            <option value="">Propose an activity</option>
-                            <option value="">Share a ward activity</option>
-                            <option value="">Make a suggestion</option>
-                            <option value="">Ask a question</option>
+                            <option value="Activity">Propose an activity</option>
+                            <option value="Ward">Share a ward activity</option>
+                            <option value="Suggestion">Make a suggestion</option>
+                            <option value="Question">Ask a question</option>
                         </select>
                     </label>
                     <label>Detailed Description<textarea name="desc" id="description" required></textarea></label>
@@ -97,25 +99,36 @@
         <p></p> -->
         <section>
             <h3>» Common Questions «</h3>
-            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there
+                another day I can go to the YSA Center?</button>
             <div class="content">
-                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+                <p>The YSA Center is commonly open every Tuesday and Wednesday, but if there is an activity programmed
+                    for other day, you are welcome to come. The other days the building may be open and use by other
+                    people like us.</p>
             </div>
-            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Do I need to be member of the Church to participate in the activities?</button>
             <div class="content">
-                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur possimus similique culpa
+                    inventore a minima quidem quibusdam laboriosam, eligendi distinctio ullam porro deserunt tempore
+                    quaerat explicabo fuga hic neque?</p>
             </div>
-            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Is there something I need to pay or collaborate with for the classes?</button>
             <div class="content">
-                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, cumque minus. Laudantium
+                    nemo consectetur, laborum, deleniti blanditiis hic nisi, veniam ipsam ut officia eaque ullam saepe
+                    vitae tenetur quos dignissimos.</p>
             </div>
-            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Can I invite other people from outside the Church?</button>
             <div class="content">
-                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit labore rerum numquam, corporis
+                    provident reprehenderit commodi ratione in? Perferendis recusandae exercitationem vero sint ipsam
+                    temporibus excepturi eos reprehenderit distinctio autem?</p>
             </div>
-            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">Are there another day I can go to the YSA Center?</button>
+            <button class="collapsible"><img src="images/arrow-down.svg" alt="An arrow down" loading="lazy">How can I do if I want to learn more?</button>
             <div class="content">
-                <p>The YSA Center is commonly open every Tuesday and Wednesday.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente, deserunt odio provident quis
+                    nihil commodi explicabo quasi vero quaerat totam et ipsum laboriosam perspiciatis molestiae, nemo
+                    tempora amet quos.</p>
             </div>
         </section>
     </main>
@@ -126,6 +139,7 @@
                     src="images/instagram.svg" alt="Instagram Icon" width="16" height="16"></a>
             <a href="#" target="_blank"><img src="images/threads.svg" alt="Threads Icon" width="16" height="16"></a>
         </div>
+        <a href="https://www.loom.com/share/7fc9a4358d04418c984a8aef52bbaf7e" class="video">-Loom Video-</a>
         <p>© <span id="currentyear"></span> | Sofia Angela Suarez | Argentina</p>
         <p id="lastModified"></p>
     </footer>

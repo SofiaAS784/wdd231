@@ -7,7 +7,7 @@
                 "days": "Wednesday",
                 "time": "7PM",
                 "location": "In-Person and Online",
-                "material": ""
+                "material": "#"
             },
             {
                 "title": "Missionary Preparation",
@@ -15,7 +15,7 @@
                 "days": "Tuesday",
                 "time": "7PM",
                 "location": "In-Person",
-                "material": ""
+                "material": "#"
             }
         ],
         "workshops": [
@@ -48,7 +48,7 @@
                 "day": "February 13th",
                 "time": "8PM",
                 "location": "At the YSA Center",
-                "desc": ""
+                "desc": "A devotional especially prepared for all the young single adults of Mar del Plata."
             }
         ]
     }
