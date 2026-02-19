@@ -312,6 +312,7 @@ footer span {
 .hero img {
     width: 100%;
 }
+
 .adds {
     margin: .8rem 0;
 }
@@ -370,6 +371,8 @@ footer span {
     color: #000000;
     opacity: 0.7;
     cursor: pointer;
+    position: absolute;
+    position-anchor: --my-carousel;
 }
 
 .carousel::scroll-button(*):hover,
@@ -388,23 +391,12 @@ footer span {
 
 .carousel::scroll-button(left) {
     content: "◄" / "Previous";
-}
-
-.carousel::scroll-button(right) {
-    content: "►" / "Next";
-}
-
-.carousel::scroll-button(*) {
-    position: absolute;
-    position-anchor: --my-carousel;
-}
-
-.carousel::scroll-button(left) {
     right: calc(anchor(left) - 40px);
     bottom: calc(anchor(top) - 15px);
 }
 
 .carousel::scroll-button(right) {
+    content: "►" / "Next";
     left: calc(anchor(right) - 40px);
     bottom: calc(anchor(top) - 15px);
 }
